@@ -10,8 +10,6 @@ function App() {
     <div style={{ 
       backgroundImage: `url("https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3V5JTIwaW4lMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80")`,
         height:'100%',
-        marginTop:'50px',
-        fontSize:'50px',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         color:'white' 

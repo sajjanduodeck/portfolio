@@ -3,7 +3,7 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div style={{marginLeft:80}}>
+    <div style={{marginLeft:80,paddingBottom:'20%'}}>
        <Typography variant='h3' sx={{color:'yellow'}} >I build value by <br/> design.</Typography>
        <div>
           <p style={{fontSize:15,marginTop:30}}>I’m Sajjan Yadav, but you can just call me Sajjan.</p>

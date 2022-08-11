@@ -3,13 +3,13 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div style={{margin:60}}>
+    <div style={{margin:60,paddingBottom:'20%'}}>
        <Typography variant='h2'>From e-commerce<br/> platforms to virtual<br/> worlds.</Typography>
        <Typography>Mostly a trip down memory lane. To be expanded one day.</Typography>
       <div style={{marginTop:200}}>
       <hr/>
-         <Typography variant='h2' sx={{color:'yellow'}}><u>SKILLS</u></Typography>
-         <ul style={{fontSize:20,}}>
+         <Typography variant='h4' sx={{color:'yellow',textAlign:'center'}}>SKILLS</Typography>
+         <ul style={{fontSize:20}}>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -20,9 +20,9 @@ function Experience() {
          </ul>
       </div>
       <hr/>
-      <Typography variant='h2' sx={{textAlign:'center',color:'yellow',marginTop:10}} ><u>In Which Company I Work</u></Typography>
+      <Typography variant='h4' sx={{textAlign:'center',color:'yellow',marginTop:2}} >In Which Company I Work</Typography>
       <div >
-        <ul>
+        <ul style={{fontSize:20,}}>
           <li>QuoDeck</li>
           <li>Techpro CompSoft</li>
           <li>TNS</li>
@@ -30,13 +30,10 @@ function Experience() {
       </div>
       <hr/>
       <div>
-        <Typography variant='h2' sx={{color:'yellow',textAlign:'center'}}>I Work On Project</Typography>
+        <Typography variant='h4' sx={{color:'yellow',textAlign:'center'}}>I Work On Project</Typography>
         <div style={{display:'flex'}}>
-           <div style={{marginTop:70}}>
-              <Typography variant='h4' >I work On two Projects :-</Typography>
-           </div>
-           <div style={{marginTop:150}}>
-              <ul style={{fontSize:30,color:'yellow'}}>
+           <div>
+              <ul style={{fontSize:20,}}>
                 <li >WeekCheck (React Js)</li>
                 <li style={{marginTop:30}}>BMI (React Native)</li>
               </ul>
